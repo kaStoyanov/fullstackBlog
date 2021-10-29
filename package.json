@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "npm": ">=6.0.0",
+    "node": ">=10.0.0"
+  },
   "scripts": {
     "start": "cd api && node index.js",
     "heroku-postbuild": "npm install && cd api && cd client && npm install && npm run build"
@@ -12,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node":"v14.16.1",
     "bcrypt": "^5.0.1",
     "dependency": "0.0.1",
     "dotenv": "^10.0.0",
