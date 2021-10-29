@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd api && node index.js",
-    "heroku-postbuild": "cd api && cd client && npm install && npm run build"
+    "heroku-postbuild": "npm install && cd api && cd client && npm install && npm run build"
 
   },
   "keywords": [],
